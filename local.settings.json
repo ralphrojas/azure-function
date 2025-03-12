@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "node",
+        "DB_USER": "sa",
+        "DB_PASSWORD": "Ralph123!",
+        "DB_SERVER": "RALPH\\SQLEXPRESS",
+        "DB_NAME": "new_db"
+    }
+}

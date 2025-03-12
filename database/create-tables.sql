@@ -1,0 +1,8 @@
+CREATE TABLE Tasks (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    title NVARCHAR(255) NOT NULL,
+    description NVARCHAR(MAX),
+    status NVARCHAR(50) DEFAULT 'pending',
+    createdAt DATETIME DEFAULT GETDATE(),
+    updatedAt DATETIME DEFAULT GETDATE()
+); 
